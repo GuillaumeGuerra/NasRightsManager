@@ -17,7 +17,7 @@ namespace NasRightsManager
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
+            var  account = (NTAccount)Everyone.Translate(typeof(NTAccount));
 
             foreach (var directory in Directories)
             {
